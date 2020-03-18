@@ -51,3 +51,7 @@ def map_to_double(source_array)
   end
   return new
 end
+
+def reduce_to_all_true(source_array)
+  i = 0 
+  while i < source_array.length do 
